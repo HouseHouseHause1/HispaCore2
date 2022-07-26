@@ -1,0 +1,5 @@
+name: HispCore2
+version: ${project.version}
+main: com.qbasty.hispcore2.main
+authors: [ qbasty ]
+description: plugin for hisparquia.org

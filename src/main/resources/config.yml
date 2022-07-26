@@ -1,0 +1,54 @@
+help:
+  - "&7---------------------------------------------"
+  - "&3/kill - die"
+  - "&3/w - whisper"
+  - "&3/r - reply"
+  - "&3/togglechat - Toggle chat messages."
+  - "&3/toggledeathmsg - Toggle all death messages."
+  - "&3/toggletells - Toggle direct messages."
+  - "&3/ignore - Ignore a players messages"
+  - "&3/stats - World size and amount of players that joined."
+  - "&3/tps - TPS of server."
+  - "&7---------------------------------------------"
+
+ExpBottleLimit: 10
+WitherLimit: 2
+WitherSkullLimit: 4
+FallingBlockLimit: 10
+PatchEndPortalDupe: false
+
+PreventChunkBan: true
+MaxEnchantmentTablePerChunk: 16
+MaxEnderchestPerChunk: 64
+MaxContainerPerChunk: 128
+MaxSignPerChunk: 64
+MaxSlimePerChunk: 64
+MaxBeaconPerChunk: 32
+MaxHopperPerChunk: 64
+MaxPistonPerChunk: 32 # Would allow 64 if sticky pistons are also being used.
+MaxGlowstonePerChunk: 128 # Set to 99999 by default, limit if you wish.
+
+PreventBookBan: true
+MaxByteSize: 255 # Per page - Not recommended to touch this
+
+PreventEndGatewayCrashExploit: true
+
+FillInBedrockRoof: true
+FillInBedrockFloor: true
+PreventBedrockFloor: true
+PreventNetherRoof: true
+
+# Patch future/rusher packet fly
+PreventPacketFly: false
+# Max teleport packets per 10 seconds, this is how the packet fly works, 25 is usually fine, if you go lower players may get stuck.
+MaxTeleportPacketsPer10Seconds: 25
+LogPacketFlyEvents: false
+
+BoatflyPatch: true
+MaxEntityPacketsPer10Seconds: 15
+LogBoatFlyEvents: true
+
+PreventCraftingRecipeLagExploit: true
+CraftingRecipeDelay: 5 # in ticks
+
+PreventDispenserCrashExploit: true
